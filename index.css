@@ -1,0 +1,742 @@
+body
+{
+    margin: 0;
+}
+#Home_Section
+{
+    height: 140vh;
+    width: 100%;
+    background: url(./Images_Used/wallpaper_1.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative;
+    transition: 0.8s;
+}
+.nav_bar
+{
+    height: 8rem;
+    width: 100%;
+}
+.nav_ul
+{
+    display: flex;
+}
+.nav_ul h1{
+    line-height: 2.5rem;
+    padding-right: 10%;
+    font-size: 3rem;
+    color: orangered;
+}
+.nav_ul a
+{
+    line-height: 8rem;
+    text-decoration: none;
+    margin-left: 5%;
+}
+.nav_ul a li
+{    
+    list-style: none;
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.8s;
+}
+.nav_ul a li:hover
+{
+    color: orangered;
+}
+.nav_ul a li.active
+{    
+    color: orangered;
+}
+#home_content
+{
+    height: 30rem;
+    width: 45%;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    transition: 0.8s ease;
+}
+#home_content p
+{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: white;
+}
+.home_button
+{
+    height: 3rem;
+    width: 25%;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.btn_rght
+{
+    position: absolute;
+    right: 2%;
+    top: 35%;
+    padding: .5rem .8rem;
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid lavender;
+    cursor: pointer;
+}
+.btn_lft
+{
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    padding: .5rem .8rem;
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid lavender;
+    cursor: pointer;
+}
+
+/* <!------ Segment Two Starts from Here -----------------!> */
+
+#why_choose
+{
+    height: 30rem;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#why_choose label
+{
+    color: orangered;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+#why_choose h1
+{
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: 33%;
+    letter-spacing: 2px;
+}
+#sub_choose
+{
+    height: 20rem;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 33%;
+    position: absolute;
+    display: flex;
+}
+#sub_choose section
+{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+}
+.back_circle
+{
+    border-radius: 100%;
+    height: 30%;
+    width: 30%;
+    background-color: #2D2727;
+    margin: auto;
+    text-align: center;
+}
+.back_circle:hover
+{
+    background-color: orangered;
+}
+#icon:hover
+{
+    color: white;
+    background: transparent;
+}
+#sub_choose section p 
+{
+    color: #AAAAAA;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#sub_choose section h2
+{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+#classes
+{
+    height: 150vh;
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
+}
+#classes label
+{
+    color: orangered;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+#classes h1
+{
+    position: absolute;
+    color: white;
+    top: 12%;
+    left: 38%;
+    letter-spacing: 2px;
+}
+#sub_classes
+{
+    height: 80%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: -1;
+    top: 20%;
+}
+#sec_1
+{
+    height: 45%;
+    width: 100%;
+}
+#sec_1 div
+{
+    height: 96%;
+    width: 30%;
+    margin-left: 3%;
+    background-color: black;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1%;
+}
+#sec_1 div img
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.img_content
+{
+    position: absolute;
+    color: white;
+    top: 75%;
+    z-index: 1;
+    left: 5%;
+    font-size: 1.1rem;
+}
+.img_content button
+{
+    position: absolute;
+    height: 2.5rem;
+    width: 3rem;
+    right: -110%;
+    padding: 1rem;
+    top: 5%;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #232323;
+    border: none;
+    cursor: pointer;
+}
+#know_right
+{
+    position: absolute;
+    padding-right: 2rem;
+    top: 30%;
+    left: 40%;
+}
+.hide
+{
+    height: 50%;
+    width: 110%;
+    background-color: black;
+    position: absolute;
+    top: 65%;
+    left: -3%;
+    transform: rotate(170deg);
+    border: 5px solid gray;
+}
+#sub_sec_2 
+{
+    height: 60%;
+    width: 46.5%;
+    display: flex;
+    border: 2px;
+    float: left;
+    margin-left: 3%;
+    position: relative;
+    overflow: hidden;
+}
+#sub_sec_2 img
+{
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    position: absolute;
+}
+
+
+#banner
+{
+    height: 150vh;
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+.banner_img
+{
+    height: 55%;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+}
+.ban_content
+{
+    height: 20rem;
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    text-align: center;
+}
+.ban_content h1
+{
+    font-size: 2.5rem;  
+}
+.ban_content p
+{
+    font-size: 1.5rem;  
+}
+.ban_content button
+{
+    height: 3.5rem;
+    width: 15%;
+    margin-top: 2.5%;
+    border: none;
+    border: 2px solid orangered;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.ban_content button:hover
+{
+    background-color: orangered;
+}
+#our_plan
+{
+    height: 100vh;
+    width: 100%;
+    position: relative ;
+    background-color: #151515;
+    top: -40%;
+    text-align: center;
+}
+#our_plan label
+{
+    color: orangered;
+    font-size: 1.2rem;    
+    z-index: 2;
+}
+#our_plan h1
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    top: 2%;
+    z-index: 2;
+}
+#plan_list
+{
+    height: 80%;
+    width: 100%;
+    margin-top: 6%;
+    position: relative;
+}
+.plan_div
+{
+    height: 93%;
+    width: 25%;
+    margin-left: 2.5%;
+    float: left;
+    position: relative;
+    border: 2px  solid gray;
+    border-radius: 5rem 0rem;
+    transition: 0.8s;
+}
+.plan_div:hover
+{
+    background-color: white;
+}
+#plan_label
+{
+    margin-top: 10%;
+    color: white;
+    font-size: 2rem;
+}
+.plan_div:hover #plan_label
+{
+    color: black;
+}
+#plan_rate
+{
+    color: #F36100;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+}
+.plan_div h3
+{
+    color: white;
+    top: 25%;
+    left: 0;
+    right:0;
+    position: absolute;
+}
+.plan_div:hover h3 
+{
+    color: black;
+}
+.plan_ul
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+}
+.plan_ul li
+{
+    color: white;
+    font-size: 1.2rem;
+    list-style: none;
+    margin-top: 3%;
+}
+.plan_div:hover .plan_ul li
+{
+    color: #151515;
+}
+.enroll_btn
+{
+    height: 3rem;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 10%;
+    transition: 0.6s;
+    cursor: pointer;
+    background: #333333;
+    border: none;
+    color: white;
+}
+.plan_div:hover .enroll_btn
+{
+    background-color: #F36100;
+    border: none;
+    color: white;
+}
+#image_content
+{
+    height: 140vh;
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+    top: -40%;
+}
+#img_cont_1
+{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+#img_cont_2
+{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.img_1
+{
+    height: 92%;
+    width: 45%;
+    position: absolute;
+    top: 5%;
+}
+.img_2
+{
+    height: 92%;
+    width: 25%;
+    left: 46%;
+    position: absolute;
+    top: 5%;
+}
+.img_3
+{
+    height: 92%;
+    width: 28%;
+    right: 0%;
+    float: right;
+    position: absolute;
+    top: 5%;
+}
+.img_4
+{
+    height: 90%;
+    width: 35%;
+    position: absolute;
+}
+.img_5
+{
+    height: 90%;
+    width: 30%;
+    left: 35.5%;
+    position: absolute;
+}
+.img_6
+{
+    height: 90%;
+    width: 34%;
+    right: 0;
+    position: absolute;
+}
+#trainer
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+    top: -43%;
+}
+#trainer h3
+{
+    color:#F36100;
+    top: 5%;
+    position: absolute;
+    left: 10%;
+}
+#trainer h1
+{
+    color: white;
+    margin-top: 6%;
+    left: 10%;
+    position: absolute;
+}
+#trainer button
+{
+    height: 3rem;
+    width: 13%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #F36100;
+    position: absolute;
+    margin-top: 5.7%;
+    right: 10%;
+    font-size: 1.1rem;
+}
+#trainer_div
+{
+    height: 60%;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20%;
+    position: absolute;
+    display: flex;
+}
+.img_content_trainer
+{
+    position: absolute;
+    color: white;
+    top: 75%;
+    z-index: 1;
+    left: 5%;
+    font-size: 1.1rem;
+    display: none;
+}
+#sub_sec_2:hover .img_content_trainer
+{
+    display: block;
+}
+.img_content button
+{
+    position: absolute;
+    height: 2.5rem;
+    width: 3rem;
+    right: -110%;
+    padding: 1rem;
+    top: 5%;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #232323;
+    border: none;
+    cursor: pointer;
+}
+.hide_trainer
+{
+    height: 50%;
+    width: 110%;
+    background-color: black;
+    position: absolute;
+    top: 65%;
+    left: -3%;
+    transform: rotate(170deg);
+    border: 5px solid gray;
+    display: none;
+}
+#sub_sec_2:hover .hide_trainer
+{
+    display: block;
+}
+
+#address
+{
+    height: 10rem;
+    width: 100%;
+    background-color: #0A0A0A;
+    position: relative;
+    top: -46%;
+}
+#address ul
+{
+    display: flex;
+
+}
+#address ul li
+{
+    color: white;
+    margin-left: 8%;
+    line-height: 10rem;
+    font-size: 1rem;
+    list-style: none;
+}
+#address ul li i
+{
+    color: white;
+    background-color: #F36100;
+    padding: 1.1rem 1.3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+#footer
+{
+    position: absolute;
+    height: 920vh;
+    width: 100%;
+    background-color: #0A0A0A;
+    top: -40%;
+    z-index: -5;
+}
+#sub_footer
+{
+    height: 54vh;
+    width: 100%;
+    position: absolute;
+    background-color: #000000;
+    bottom: 0%;
+}
+#ft_sec_1
+{
+    height: 70%;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+}
+#ft_sec_2
+{
+    height: 70%;
+    width: 15%;
+    float: left;
+    margin-left: 6%;
+}
+#ft_sec_3
+{
+    height: 70%;
+    width: 15%;
+    float: left;
+}
+#ft_sec_4
+{
+    height: 70%;
+    width: 30%;
+    float: right;
+    margin-right: 8%;
+}
+#ft_sec_2 li
+{
+   list-style: none;
+   margin-top: 5%;
+   margin-left: 0%;
+}
+#ft_sec_2 li a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: lavender;
+}
+#ft_sec_3 li
+{
+   list-style: none;
+   margin-top: 5%;
+   margin-left: 0%;
+}
+#ft_sec_3 li a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: lavender;
+}
+#base_foot
+{
+    height: 28%;
+    width: 90%;
+    /* background-color: turquoise; */
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid gray;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#base_foot h5
+{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 5rem;
+}
+#base_foot a
+{
+    color: #F36100;
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,308 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="gym_file.js"></script>
+    <title>FITNESS GYM WEBSITE</title>
+    <style>
+        #icon
+        { 
+            color: #F94A29;
+            font-size: 2.2rem;
+            margin-top: 5%;
+            background-color: transparent;
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="Home_Section">
+        <nav style="color: azure;" class="nav_bar">
+            <!-- <h1 style="line-height: 7rem;">FitNess GYM</h1> -->
+            <ul class="nav_ul">
+                <h1> Fit<SPan style="color: white;">ness</SPan>GYM</h1>
+                <a href="#Home_Section"><li class="active">Home</li></a>
+                <a href="#banner"><li>About Us</li></a>
+                <a href="#classes"><li>Services</li></a>
+                <a href="#trainer"><li>Our Team</li></a>
+                <a href="class_details.html"><li>Working Time</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <div id="home_content">
+            <p>
+                <span style="font-size:1.5rem">SHAPE   YOUR   BODY</span>
+                <br>
+                BE   <span style="color:orangered">STRONG</span><br>   TRAIN HARD
+            </p>
+            <button class="home_button" onclick="call_contact()">GET INFO</button>
+        </div>
+        <button class="btn_rght" onclick="move_wallpaper_right()"><i class="fa-solid fa-angle-right"></i></button>
+        <button class="btn_lft" onclick="move_wallpaper_left()"><i class="fa-sharp fa-solid fa-chevron-left"></i></button>
+    </div>
+
+    <div id="why_choose">
+        <label for="">WHY CHOOSE US</label>
+        <h1>PUSH YOUR LIMITS FORWARD</h1>
+        <div id="sub_choose">
+            <section>
+                <div class="back_circle"><i class="fa-solid fa-person-running" id="icon"></i></div>
+                    <h2 align="center">Modern Equipment</h2>
+                <p>
+                    The use of modern equipment has transformed many industries, including healthcare, and construction, 
+                    by streamlining processes, reducing costs, and enhancing capabilities.
+                </p>
+            </section>
+            <section>
+                <div class="back_circle"><i class="fa-solid fa-bottle-droplet" id="icon"></i></div>
+                <h2>Healthy nutrition plan</h2>
+                <p>
+                    A healthy nutrition plan involves consuming a balanced diet that includes a variety of nutrient-rich foods, 
+                    such as fruits, vegetables, whole grains, lean proteins, and healthy fats. 
+                </p>
+            </section>
+            <section>
+                <div class="back_circle"><i class="fa-solid fa-dumbbell" id="icon" style="transform: rotate(120deg);"></i></div>
+                <h2>Proffesional training plan</h2>
+                <p>
+                    A professional training plan is a program designed to enhance an individual's knowledge, skills, 
+                    and abilities in a particular field. 
+                    It typically includes a combination of classroom instruction.
+                </p>
+            </section>
+            <section>
+                <div class="back_circle"><i class="fa-solid fa-heart-pulse" id="icon"></i></div>
+                <h2>Unique to your needs</h2>
+                <p>
+                    It implies that a particular solution or approach is designed to fit a person's unique needs, preferences, 
+                    and goals, rather than being a one-size-fits-all solution. 
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <div id="classes">
+        <label for="">OUR CLASSES</label>
+        <h1>WHAT WE CAN OFFER</h1>
+        <div id="sub_classes">
+            <section id="sec_1">
+                <div>
+                    <img src="./Images_Used/img_1.jpg" alt="">
+                    <p class="img_content">
+                       <span style="color: #F94A29;font-size:1rem;">STRENGHT</span> <br>
+                        WEIGHT LIFTING
+                        <button><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                    </p>
+                    <section class="hide"></section>
+                </div>
+
+                <div>
+                    <img src="./Images_Used/img_2.jpg" alt="">
+                    <p class="img_content">
+                       <span style="color: #F94A29;font-size:1rem;">STRENGHT</span> <br>
+                        BODY BUILDING
+                        <button><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                    </p>
+                    <section class="hide"></section>
+                </div>
+
+                <div>
+                    <img src="./Images_Used/img_3.jpg" alt="">
+                    <p class="img_content">
+                       <span style="color: #F94A29;font-size:1rem;">STRENGHT</span> <br>
+                       KETTLEBELL POWER
+                       <button style="right: -70%"><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                    </p>
+                    <section class="hide"></section>
+                </div>
+            </section>
+            <section id="sec_2">
+                <div id="sub_sec_2">
+                    <img src="./Images_Used/img_4.jpg" alt="">
+                    <p class="img_content">
+                        <span style="color: #F94A29;font-size:1rem;">STRENGHT</span> <br>
+                         ARMS BUILDING
+                         <button style="right: -240%;"><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                     </p>
+                     <section class="hide"></section>
+                </div>
+                <div id="sub_sec_2" style="float: right;margin-right:1%">
+                    <img src="./Images_Used/img_5.jpg" alt="">
+                    <p class="img_content">
+                        <span style="color: #F94A29;font-size:1rem;">TRAINING</span> <br>
+                         SLIM AND HEALTHY
+                         <button style="right: -180%;"><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                     </p>
+                     <section class="hide"></section>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="banner">
+        <img src="./Images_Used/poster.jpg" alt="" class="banner_img">
+        <div class="ban_content">
+            <h1> REGISTRATION NOW TO GET MORE DEALS </h1>
+            <p>WHERE HEALTH, BEAUTY AND FITNESS MEET.</p>
+            <button>APPOINTMENT</button>
+        </div>
+    </div>
+
+    <div id="our_plan">
+        <label>OUR PRICING PLANS</label>
+        <h1>CHOOSE YOUR MEMBERSHIP PLAN</h1>
+        <div id="plan_list">
+            <div class="plan_div" style="margin-left: 10%;">
+                <h2 id="plan_label">Class drop-in</h2>
+                <h2 id="plan_rate">$ 39.0</h2>
+                <h3>SINGLE CLASS</h3>
+                <ul class="plan_ul">
+                    <li>Free riding</li>
+                    <li>Unlimited equipments</li>
+                    <li>Personal trainer</li>
+                    <li>Weight losing classes</li>
+                    <li>Month to mouth</li>
+                    <li>No time restriction</li>
+                </ul>
+                <button class="enroll_btn">ENROLL NOW</button>
+            </div>
+            <div class="plan_div">
+                <h2 id="plan_label">12 Month unlimited</h2>
+                <h2 id="plan_rate">$ 99.0</h2>
+                <h3>SINGLE CLASS</h3>
+                <ul class="plan_ul">
+                    <li>Free riding</li>
+                    <li>Unlimited equipments</li>
+                    <li>Personal trainer</li>
+                    <li>Weight losing classes</li>
+                    <li>Month to mouth</li>
+                    <li>No time restriction</li>
+                </ul>
+                <button class="enroll_btn">ENROLL NOW</button>
+            </div>
+            <div class="plan_div">
+                <h2 id="plan_label">6 Month unlimited</h2>
+                <h2 id="plan_rate">$ 59.0</h2>
+                <h3>SINGLE CLASS</h3>
+                <ul class="plan_ul">
+                    <li>Free riding</li>
+                    <li>Unlimited equipments</li>
+                    <li>Personal trainer</li>
+                    <li>Weight losing classes</li>
+                    <li>Month to mouth</li>
+                    <li>No time restriction</li>
+                </ul>
+                <button class="enroll_btn">ENROLL NOW</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="image_content">
+        <div id="img_cont_1">
+            <img src="./Images_Used/img_6.jpg" alt="" class="img_1">
+            <img src="./Images_Used/img_7.jpg" alt="" class="img_2">
+            <img src="./Images_Used/img_8.jpg" alt="" class="img_3">
+        </div>
+        <div id="img_cont_2">
+            <img src="./Images_Used/img_9.jpg" alt="" class="img_4">
+            <img src="./Images_Used/img_10.jpg" alt="" class="img_5">
+            <img src="./Images_Used/img_11.jpg" alt="" class="img_6">
+        </div>
+    </div>
+
+    <div id="trainer">
+        <h3 for="" >OUR TEAM</h3>
+        <h1>TRAIN WITH EXPERTS</h1> <button>APPOINTMENT</button>
+        <div id="trainer_div">
+            <div id="sub_sec_2" style="height: 100%;width:33%;margin-left:0;">
+                <img src="./Images_Used/img_12.jpg" alt="" style="padding: 0;">
+                <p class="img_content_trainer">
+                    <span style="color: #F94A29;font-size:1rem;">STRENGHT</span> <br>
+                     ARMS BUILDING
+                     <button style="right: -240%;"><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                 </p>
+                 <section class="hide_trainer"></section>
+            </div>
+
+            <div id="sub_sec_2" style="height: 100%;width:33%;margin-left:3%;">
+                <img src="./Images_Used/img_13.jpg" alt="" style="padding: 0;">
+                <p class="img_content_trainer">
+                    <span style="color: #F94A29;font-size:1rem;">STRENGHT</span> <br>
+                     ARMS BUILDING
+                     <button style="right: -240%;"><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                 </p>
+                 <section class="hide_trainer"></section>
+            </div>
+
+            <div id="sub_sec_2" style="height: 100%;width:33%;float:right;">
+                <img src="./Images_Used/img_14.jpg" alt="" style="padding: 0;">
+                <p class="img_content_trainer">
+                    <span style="color: #F94A29;font-size:1rem;">STRENGHT</span> <br>
+                     ARMS BUILDING
+                     <button style="right: -240%;"><i class="fa-solid fa-angle-right" id="know_right"></i></button>
+                 </p>
+                 <section class="hide_trainer"></section>
+            </div>
+        </div>
+    </div>
+
+    <div id="address">
+        <ul>
+            <li>
+                <i class="fa-solid fa-location-dot"></i> &nbsp;
+                (9A) Middle Golden Rd, APK,
+                    VNR 626101
+                
+            </li>
+            <li><i class="fa-solid fa-mobile"></i>  &nbsp;8870161743 | 9360864172 </li>
+            <li><i class="fa-solid fa-envelope"></i>  &nbsp;Sun.gymboys@gmail.com</li>
+        </ul>
+    </div>
+
+    <footer id="footer">
+        <div id="sub_footer">
+            <section id="ft_sec_1">
+                <h1 style="font-size: 3rem;color:#F94A29"> Fit<SPan style="color: white;">ness</SPan>GYM</h1>
+                <p style="color: white;text-align:justify">
+                    The resistance that you fight physically in the gym and the resistance that you fight in life can only build a strong character
+                </p>
+                <span style="color: white;">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube" style="margin-left: 2%;"></i>
+                    <i class="fa-regular fa-envelope" style="margin-left: 2%;"></i>
+                    <i class="fa-brands fa-facebook-f" style="margin-left: 2%;"></i>
+                    <i class="fa-brands fa-twitter" style="margin-left: 2%;"></i>
+                </span>
+            </section>
+            <section id="ft_sec_2">
+                <h1 style="color:white;margin-top:20%">USEFULL LINKS</h1>
+                    <li><a href="#banner">About</a></li>
+                    <li><a href="">Price List</a></li>
+                    <li><a href="">Classes</a></li>
+                    <li><a href="">Contact</a></li>
+            </section>
+            <section id="ft_sec_3">
+                <h1 style="color:white;margin-top:20%">SUPPORTS</h1>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Subscribe</a></li>
+                    <li><a href="">Contact</a></li>
+            </section>
+            <section id="ft_sec_4">
+                <h1 style="color:white;margin-top:10%">TIPS AND GUIDES</h1>
+                <a href="#" style="color: #C4BFB9;text-decoration:none;">Physical fitness may help prevent depression, anxiety</a>
+                <p style="color: #242E32;">3 min read | 20 Comment</p>
+                <hr style="width: 108%;margin-left:0%">
+                <a href="#" style="color: #C4BFB9;text-decoration:none;">Fitness: The best exercise to lose belly fat and tone up...</a>
+                <p style="color: #16202E;">3 min read | 20 Comment</p>
+            </section>
+            <section id="base_foot">
+                <h5>This Site was completely developed by <a href="https://github.com/Mohan-Vinotharamkumar?tab=repositories">Mohan_Vinotharamkumar</a>. Further Queries ping me at <a href="https://github.com/Mohan-Vinotharamkumar?tab=repositories"><i class="fa-brands fa-github"></i></a></h5>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
